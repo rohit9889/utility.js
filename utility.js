@@ -38,7 +38,7 @@
     var date = (new Date(string)).toDateString();
     if(date === "Invalid Date"){
       var d = new Date();
-      return $rootScope.utilityFunction.parseDate(d)
+      return utility.parseDate(d)
     }
     return date;
   };
